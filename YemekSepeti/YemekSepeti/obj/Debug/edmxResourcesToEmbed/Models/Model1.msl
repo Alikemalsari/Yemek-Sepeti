@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="YemekSiparisModelStoreContainer" CdmEntityContainer="YemekSiparisEntities2">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="YemekSiparisModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AraSicaklars">
+      <EntityTypeMapping TypeName="YemekSiparisModel.AraSicaklar">
+        <MappingFragment StoreEntitySet="AraSicaklars">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AraSicakYemekAdi" ColumnName="AraSicakYemekAdi" />
+          <ScalarProperty Name="Fiyati" ColumnName="Fiyati" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Iceceklers">
+      <EntityTypeMapping TypeName="YemekSiparisModel.Icecekler">
+        <MappingFragment StoreEntitySet="Iceceklers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IcecekAdi" ColumnName="IcecekAdi" />
+          <ScalarProperty Name="Fiyati" ColumnName="Fiyati" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Siparis">
+      <EntityTypeMapping TypeName="YemekSiparisModel.Sipari">
+        <MappingFragment StoreEntitySet="Siparis">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="YemekAdi" ColumnName="YemekAdi" />
+          <ScalarProperty Name="AraSicakAdi" ColumnName="AraSicakAdi" />
+          <ScalarProperty Name="İcecekeler" ColumnName="İcecekeler" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yemeklers">
+      <EntityTypeMapping TypeName="YemekSiparisModel.Yemekler">
+        <MappingFragment StoreEntitySet="Yemeklers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AnaYemekAdi" ColumnName="AnaYemekAdi" />
+          <ScalarProperty Name="Fiyati" ColumnName="Fiyati" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

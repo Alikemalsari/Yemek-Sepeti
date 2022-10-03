@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = null;
+    ViewBag.Title = "Anasayfa";
+
+}
+
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<style>
+    body {
+        background-color:wheat;
+    }
+
+    #baslık {
+        margin-top:250px;
+        color:tomato;
+        text-align: center;
+        font-size: 100px;
+    }
+    #btnSiparis{
+        margin-top:50px;
+        font-size:30px;
+        border-radius:30px;
+        
+    }
+    #btnIletisim {
+        font-size: 30px;
+        border-radius: 30px;
+    }
+</style>
+<html>
+<head>
+    
+    <title>
+        Anasayfa
+    </title>
+</head>
+<body>
+
+    <h1 id="baslık">Çağır Gelsin'e Hoşgeldiniz</h1>
+    <div style="text-align:center">
+        <a href="~/Siparis/Index"> <button class="btn-danger" id="btnSiparis"> Sipariş Ver</button></a>  
+        <a href="~/Takip/Index"> <button class="btn-primary" id="btnIletisim">Güncel Siparişler</button></a>
+    </div>
+
+</body>
+</html>
+<script>
+    
+</script>
